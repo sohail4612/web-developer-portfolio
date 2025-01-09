@@ -1,0 +1,121 @@
+/* open sans font import */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.open-sans-normal {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  /* dark 01 color */
+  .dark1-color{
+    color: #181818;
+  }
+
+    /* dark 02 color */
+    .dark2-color{
+        color: #474747;
+      }
+
+        /* dark 03 color */
+  .dark3-color{
+    color: #757575;
+  }
+
+  /* orange color */
+.orange-color{
+    color: #FD6E0A;
+}
+
+/* background of head */
+.header{
+   
+    
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: 38px , bottom right;  
+    background-color: #FFF8F3;
+   
+}
+
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 180px 0px 180px ;
+    padding: 50px;
+}
+
+.nav-title{
+    font-weight: 800px;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+nav ul li {
+    list-style: none;
+    font-size: 20px;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+}
+.button1{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    margin: 15px;
+   
+
+}
+.button2{
+    background-color: transparent;
+    font-weight: bold;
+    color: #FD6E0A;
+    padding: 16px 35px;
+    border-radius: 5px;
+    border: solid  #FD6E0A;
+    font-size: 20px;
+    margin: 15px;
+
+}
+
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 38px 0px 230px;
+}
+.banner-content{
+    max-width: 580px;
+    margin-top: 185px;
+}
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600px;
+    margin-bottom: 5px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.banner-profile-picture{
+    width: 584px;
+}
+.banner-description{
+    font-size: 18px;
+
+    margin-bottom: 30px;
+}
